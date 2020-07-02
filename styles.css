@@ -1,0 +1,116 @@
+html {
+    display: block;
+    font-family: Helvetica, sans-serif;
+    background-color: #dadada;
+    margin: auto;
+}
+
+body {
+    display: block;
+    margin: 0 10%;
+}
+
+h1 {
+    display: block;
+}
+
+h2 {
+    display: block;
+    text-align: left;
+    color: lightslategrey;
+    letter-spacing: 0.4rem; 
+}
+
+.container {
+    display: block;
+    border: 1px solid black;
+    padding: 0 10px;
+    margin: 10px 0;
+    min-width: 215px;
+}
+
+.color-container {
+    display: block;
+    grid-template: 60px auto;
+    text-align: left;
+    width: 100%
+    min-width: 150px;
+    margin: auto;
+}
+.color-container div {
+    justify-content: space-around;
+    width: 200px;
+    min-width: 140px;
+    grid-area: auto;
+    border: 2px solid white;
+    margin: 4px 4px;
+    padding: auto;
+    line-height: 0.3rem;
+
+}
+
+.color-container ul, li {
+    display: flexbox;
+    text-align: left;
+    position: left;
+    font-size: 14px;
+    font-style: none;
+    line-height: 1.3rem;
+    list-style-type: circle;
+}
+
+.panel-black {
+    position: left;
+    display: inline-block;
+    color: white;
+    font-weight: normal;
+    background-color: black;
+}
+
+.panel-grey {
+    display: inline-block;
+    color: white;
+    background-color: dimgray;
+}
+
+.panel-red {
+    display: inline-block;
+    color: white;
+    background-color: crimson;
+}
+
+.panel-yellow {
+    display: inline-block;
+    background-color: gold;
+}
+
+.color-label {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.color-hex {
+    font-size: 12px;
+    text-align: center;
+}
+
+.font-panel {
+    display: block;
+    text-align: left;
+}
+
+.font1 {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.font2 {
+    font-family: 'Averia Serif Libre', serif;
+}
+
+.font3 {
+    font-family: 'Courier Prime', monospace;
+}
+
+.font-panel p {
+    padding-left: 39px;
+}
